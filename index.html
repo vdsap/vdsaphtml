@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>VdSap</title>
+        <meta property="og:title" content="VdSap">
+        <meta property="og:locale" content="en_EU">
+        <meta property="og:description" content="VdSap's main page">
+        <script src="https://sindresorhus.com/devtools-detect/index.js"></script>
+        <link rel="stylesheet" href="assets/fonts/gsans/style.css">
+        <link rel="stylesheet" href="assets/vars.css">
+        <link rel="stylesheet" href="assets/css/index/style.css">
+        <link rel="shortcut icon" href="assets/img/Dragon.webp" type="image/webp">
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <meta name="theme-color" content="#C21CC7">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body class="center">
+        <script>
+            var test = false;
+            function brovzer() {
+                if (/MSIE/i.test(navigator.userAgent)) return true
+                if (/firefox/i.test(navigator.userAgent)) return true
+                if (/Trident/i.test(navigator.userAgent)) return true
+                if (/Edge/i.test(navigator.userAgent)) return true
+                return false
+            }
+            if (brovzer()) {
+                document.body.style.backgroundImage = "url('assets/images/stars4k.jpg')";
+            }
+        </script>
+        <audio autoplay loop id="player">
+            <source src="../assets/sounds/music.mp3">
+            <script>
+                document.currentScript.parentElement.volume = 0.50;
+            </script>
+        </audio>
+        <header class="center info">
+            <div class="avatar-container">
+             <img src="assets/images/ava.jpg" oncontextmenu="return false;" class="avatar">
+            </div>
+            <div class="center menu">
+              <h2 class="sap_name"><strong>Sap</strong></h2>
+			  <hr width="295">
+                <h3>18 y.o.</h3>
+                <h3>3D modeling and python programming</h3>
+                <hr width="295">
+                <h2>About me :3</h2>
+            </div>
+            <div class="buttons">
+                <a href="javascript://" class="linksocial" onclick="location.href='https://t.me/VDSap'"><img src="assets/img/icon_tg.png" class="socialicon">TG</a>
+                <a href="javascript://" class="linksocial" onclick="location.href='https://steamcommunity.com/id/vdsap'"><img src="assets/img/icon_steam.png" class="socialicon">Steam</a>
+                <a href="javascript://" class="linksocial" onclick="location.href='https://vk.com/vdsap'"><img src="assets/img/icon_vk.png" class="socialicon">VK</a>
+            </div>
+            <div class="buttons">
+                <a href="javascript://" class="link" onclick="location.href='https://www.last.fm/user/Lampus9998'">LastFM</a>
+                <a href="javascript://" class="link" onclick="location.href='https://open.spotify.com/user/b1ljphvfbqidv0uvuyozt5yzx?si=16206d9f93d144fa'">Spotify</a>
+            </div>
+            <div class="buttons">
+                <a href="javascript://" class="link" onclick="location.href='https://t.me/vdsap_bg'">My Blog in Telegram</a>
+            </div>
+            <hr width="295">
+            <div class="center menu">
+                <h2>Useful links</h2>
+            </div>
+            <div class="buttons">
+				 <a href="javascript:/" class="link" onclick="location.href='http://torrents.vdsap.tk'">.torrents</a>
+				 <a href="javascript:/" class="link" onclick="location.href='https://files.vdsap.tk'">Files</a>
+				 <a href="javascript:/" class="link" onclick="location.href='https://anime.vdsap.tk'">Anime</a>
+			</div>
+			<div class="buttons">
+				<a href="javascript:/" class="link" onclick="location.href='https://drova.vdsap.tk'">Drova by vdsap</a>
+			</div>
+        </header>
+    </body>
+</html>
